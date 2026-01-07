@@ -7,7 +7,9 @@ import TodoList from "./components/TodoList";
 
 //1. 아래 todos 상태의 초기값 구조를 보고 Todo 타입을 정의하세요.
 export interface Todo {
-
+  id: number,
+  text: string,
+  completed: boolean,
 }
 //2. showCompleted의 상태를 열거형으로 저장하세요.
 //- 들어갈 내용은 다음과같습니다.
